@@ -29,6 +29,7 @@ public class Factorial {
 
 		else {
 			int x = factorialIllustrated(n-1);
+			
 			System.out.println("Computing " + n + " * factorial(" + (n - 1)+ ") => "+n+" * "+x);
 			return n * x;
 		}
